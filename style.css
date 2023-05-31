@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: merriweather, serif;
+}
+.header{
+    position: relative;
+    padding-top: 100px;
+    background-color: #eaf6ea;
+}
+h1{
+    font-size: 4.5rem;
+    color: #66bfbf;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    font-size: 2rem;
+    color: #66bfbf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color: #66bfbf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: #40514e;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pro{
+    text-decoration: underline;
+    color: #137a7a;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    top: 450px;
+}
+
+
+.middle{
+    padding: 50px;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    color: #40514e;
+}
+hr{  
+    border: dotted #888a8a 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.content{
+    width: 50%;
+    text-align: left;
+    margin: 150px auto 150px auto;
+}
+.com{
+    width: 25%;
+    float: left;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+.chilli{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.contact{
+    width: 40%;
+    line-height: 2;
+    margin: 100px auto 100px auto;
+}
+.btn{
+    width: 25%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #137a7a;
+    border-radius: 10px;
+    margin-top: 50px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    background-color: #66bfbf;
+}
+
+.footer{
+    height: 100px;
+    padding: 50px;
+    line-height: 2;
+    background-color: #66bfbf;
+}
+.footer a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #11999e;
+}
+.footer p{
+    font-size: 12px;
+    color: azure;
+}
+a:hover{
+    color: brown;
+}
